@@ -1,0 +1,90 @@
+/* NAVIGATION */
+
+body
+{
+	background-color: white;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	/*margin-right: auto;*/
+	/*margin-left: 0;*/
+	margin-top: 50px;
+}
+
+div
+{
+	
+	background-color:green;
+}
+
+.navbar
+{
+	background-color: #1F497D;
+	font-size: 30px;
+	text-align: center;
+	position: fixed; /* Set the navbar to fixed position */
+  	top: 0; /* Position the navbar at the top of the page */
+  	width: 100%;
+}
+
+.navbar a
+{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	
+}
+
+.navbar li a:visited
+{
+	 text-decoration: none;
+	 color: white;
+}
+
+.about
+{
+	background-color: red;
+}
+
+.reveal
+{
+	opacity: 0;
+	transform: translateY(100px);
+}
+.reveal-visible
+{
+	opacity: 1;
+	transform: translateY(0);
+	transition:1s;
+}
+
+p
+{
+	color: rgb(52, 58, 64);
+}
+h1
+{
+	color: #1F497D;
+	border: 3px solid #1F497D;
+	border-radius: 20px;
+	padding-left: 20px;
+}
+
+
+p:hover
+{
+	border-left: 3px solid black;	
+}
+div:hover
+{
+
+	border-left: 5px solid black;	
+}
+
+#cv
+{
+	display: flex;
+
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
