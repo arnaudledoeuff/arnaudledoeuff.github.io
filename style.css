@@ -14,12 +14,18 @@ body
 	text-align: center;
 }
 
+.class_encadre
+{
+	border:2px solid;
+	border-color:#1F497D;
+	border-radius: 10%;
+}
+
 div
 {
 	
-	background-color:green;
-	border-width:2px;
-	border-style:dotted;
+	/*background-color:green;*/
+	padding: 40px;
 }
 
 .navbar
@@ -30,6 +36,10 @@ div
 	position: fixed; /* Set the navbar to fixed position */
   	top: 0; /* Position the navbar at the top of the page */
   	width: 1000px;
+  	z-index: 10;
+  	padding: 0px;
+  	word-spacing: 100px;
+  	border-radius: 10px;
 }
 
 .navbar a
@@ -48,7 +58,7 @@ div
 
 .about
 {
-	background-color: red;
+	/*background-color: red;*/
 	height: 100%;
 	display:flex;
 	flex-direction: row;
@@ -64,6 +74,10 @@ div
 .profil_image
 {
 	border-radius: 50%;
+}
+.img_general
+{
+	border-radius:30%;
 }
 
 .reveal
